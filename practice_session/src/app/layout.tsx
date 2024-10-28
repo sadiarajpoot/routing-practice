@@ -28,33 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {/* <Header />
-        <Footer/> */}
         {children}
       </body>
     </html>
   );
 }
 
-// export function Header() {
-//   return (
-//     <div>
-//       <ul>
-//         <li><Link href="/">Home</Link></li>
-//         <li><Link href="/about">About</Link></li>
-//         <li><Link href="/contact-us">Contact Us</Link></li>
-//         <li><Link href="/career">Career</Link></li>
-//       </ul>
-//     </div>
-//   );
-// } 
-//  export  function Footer (){
-//   return(
-//     <div>
-//       <ul>
-//         <li><Link href="www.youtube.com">Youtube</Link></li>
-//         <li><Link href="www.google.com">Google</Link></li>
-//       </ul>
-//     </div>
-//   )
-// }
